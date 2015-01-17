@@ -14,8 +14,8 @@ import org.bukkit.potion.PotionEffectType;
 public class WorldEffects extends JavaPlugin implements Listener {
 	
 	public void onEnable() {
-		    saveDefaultConfig();
-        Bukkit.getPluginManager().registerEvents(this, this);
+		saveDefaultConfig();
+        	Bukkit.getPluginManager().registerEvents(this, this);
 	}
 	
 	@EventHandler

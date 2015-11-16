@@ -22,14 +22,14 @@ public class WorldEffects extends JavaPlugin implements Listener {
 	int amp;
 	
 	public void onEnable() {
-        Bukkit.getPluginManager().registerEvents(this, this);
+        	Bukkit.getPluginManager().registerEvents(this, this);
 		saveDefaultConfig();
 		getServer().getScheduler().scheduleSyncRepeatingTask(this, new Runnable() {
-            @Override
-            public void run() {
-                checkEffects();
-            }
-        }, 100L, 60L);
+            		@Override
+            		public void run() {
+                		checkEffects();
+            		}
+		}, 100L, 60L);
 	}
 	
 	public void checkEffects() {

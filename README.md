@@ -8,3 +8,5 @@ holy nested loops, along with 2many checks running every 3 seconds.
 
 code made into more of use though: https://github.com/Cewlt/CustomGapples
 alot that can be done with that 20 lines
+
+// 3/19/16: I was a noob, enjoy my shitty conventions.
